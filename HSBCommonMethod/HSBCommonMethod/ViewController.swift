@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let bool = ValueFilter.isAvailableEmail("123456789@qq.com")
+        print(bool)
     }
 
 
