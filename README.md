@@ -1,0 +1,2 @@
+# HSBCommonMethod
+HSBCommonMethod
