@@ -43,7 +43,7 @@ open class ValueFilter {
      - returns:
      */
     public class func isAvailableMobileNumber(_ mobileNum: String) -> Bool {
-        let phoneRegEx = "\\b(1)[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]\\b";
+        let phoneRegEx = "\\b(1)[3-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]\\b";
         
         let regExPredicate = NSPredicate(format:"SELF MATCHES %@", phoneRegEx);
         return regExPredicate.evaluate(with: mobileNum);
